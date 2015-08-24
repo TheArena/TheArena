@@ -3,13 +3,10 @@ using System.Collections;
 
 public class GameManager : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+	void Start ()
+	{
+
+		Debug.Log ("Je suis un GameManager qui manage le Game");
+
 	}
 }
