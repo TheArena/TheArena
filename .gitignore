@@ -9,6 +9,8 @@ Desktop.ini
 Library/BuildPlayer.prefs
 Temp/*
 Library/*
+ProjectSettings/ProjectVersion.txt
+ProjectSettings/ProjetSettings.asset
 
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
