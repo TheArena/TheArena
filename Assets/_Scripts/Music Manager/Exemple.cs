@@ -7,12 +7,14 @@ public class Exemple : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 	
-		MusicManager.PlayOnMeasure (MusicStyle.Introduction);
+		MusicManager.Play (MusicStyle.Introduction, MusicTransition.fadeIn * 5.0f);
 
 	}
 	
-	// Update is called once per frame
-	void Update () {
-	
+	public void ChangeMusic ()
+	{
+
+		MusicManager.Play (MusicStyle.Beginning, MusicTransition.outIn * 10.0f);
+
 	}
 }
