@@ -54,3 +54,6 @@ Temporary Items
 ProjectSettings/ProjectSettings.asset
 
 ProjectSettings/ProjectVersion.txt
+*.userprefs
+*.csproj
+Assembly-CSharp-vs.csproj
