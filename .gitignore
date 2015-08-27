@@ -54,6 +54,7 @@ Temporary Items
 ProjectSettings/ProjectSettings.asset
 
 ProjectSettings/ProjectVersion.txt
+<<<<<<< HEAD
 
 *.csproj
 
@@ -62,3 +63,8 @@ Assembly-CSharp-vs.csproj
 Assembly-CSharp.csproj
 
 TheArena.userprefs
+=======
+*.userprefs
+*.csproj
+Assembly-CSharp-vs.csproj
+>>>>>>> origin/master
