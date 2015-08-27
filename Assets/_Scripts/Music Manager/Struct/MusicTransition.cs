@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-namespace TheArena
+namespace TheArena.Music
 {
 
 	/// <summary>
@@ -16,9 +16,7 @@ namespace TheArena
 		public static MusicTransition none = new MusicTransition (MusicTransitionMode.None);
 		public static MusicTransition cut = new MusicTransition (MusicTransitionMode.Cut);
 		public static MusicTransition fade = new MusicTransition (MusicTransitionMode.Fade, 1.0f);
-		public static MusicTransition fadeIn = new MusicTransition (MusicTransitionMode.FadeIn, 1.0f);
-		public static MusicTransition fadeOut = new MusicTransition (MusicTransitionMode.FadeOut, 1.0f);
-		public static MusicTransition outIn = new MusicTransition (MusicTransitionMode.FadeOutFadeIn, 1.0f);
+		public static MusicTransition outIn = new MusicTransition (MusicTransitionMode.FadeOutIn, 1.0f);
 
 		// ATTRIBUTS
 

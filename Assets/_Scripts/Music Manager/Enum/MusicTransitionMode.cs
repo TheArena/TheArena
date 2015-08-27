@@ -2,7 +2,7 @@
 /// Le mode de transition
 /// </summary>
 
-namespace TheArena
+namespace TheArena.Music
 {
 	
 	public enum MusicTransitionMode
@@ -10,11 +10,7 @@ namespace TheArena
 		None,
 		Cut,
 		Fade,
-		FadeOut,
-		FadeIn,
-		FadeOutFadeIn,
-		OnMeasure,
-		OnBeat
+		FadeOutIn
 	}
 	
 }
