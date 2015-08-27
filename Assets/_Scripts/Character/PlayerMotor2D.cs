@@ -58,7 +58,6 @@ public class PlayerMotor2D : MonoBehaviour
 
 	private void FixedUpdate ()
 	{
-		float time = Time.fixedDeltaTime;
 		SetFacing ();	// Set the state of the direction of the player to the good value
 		ApplyMovement ();
 	}

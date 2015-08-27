@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace TheArena
+namespace TheArena.Ctes
 {
 	public class Input
 	{	

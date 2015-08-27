@@ -615,13 +615,13 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 5057892, guid: 9205eee7aaff29c41a5b208b54f99eac, type: 2}
-      propertyPath: m_IsKinematic
-      value: 0
+    - target: {fileID: 11486912, guid: 9205eee7aaff29c41a5b208b54f99eac, type: 2}
+      propertyPath: triggerMaskAttack.m_Bits
+      value: 3072
       objectReference: {fileID: 0}
-    - target: {fileID: 5057892, guid: 9205eee7aaff29c41a5b208b54f99eac, type: 2}
-      propertyPath: m_GravityScale
-      value: 0
+    - target: {fileID: 6033960, guid: 9205eee7aaff29c41a5b208b54f99eac, type: 2}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9205eee7aaff29c41a5b208b54f99eac, type: 2}
