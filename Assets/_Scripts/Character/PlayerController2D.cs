@@ -41,5 +41,8 @@ public class PlayerController2D : MonoBehaviour
 			// On Utilise le bouclier (Classe idem qu'au dessus je pense)
 		}
 
+		// Make the player look toward the mouse
+		Vector3 mousepos = Camera.main.ScreenToWorldPoint (Input.mousePosition);
+		transform.LookAt (transform.position + Vector3.forward, new Vector3 (mousepos.x - transform.position.x, mousepos.y - transform.position.y, 0));
 	}
 }
