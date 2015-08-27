@@ -51,6 +51,12 @@
      <Compile Include="Assets\_Scripts\Character\PlayerMotor2D.cs" />
      <Compile Include="Assets\_Scripts\GameManager.cs" />
      <Compile Include="Assets\_Scripts\Globals.cs" />
+     <Compile Include="Assets\_Scripts\Music Manager\Enum\MusicStyle.cs" />
+     <Compile Include="Assets\_Scripts\Music Manager\Enum\MusicTransitionMode.cs" />
+     <Compile Include="Assets\_Scripts\Music Manager\Exemple.cs" />
+     <Compile Include="Assets\_Scripts\Music Manager\MusicManager.cs" />
+     <Compile Include="Assets\_Scripts\Music Manager\MusicTools.cs" />
+     <Compile Include="Assets\_Scripts\Music Manager\Struct\MusicTransition.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Programmes/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
